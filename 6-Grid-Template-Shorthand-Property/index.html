@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .container_example_1 {
+            width: 700px;
+            height: 700px;
+            margin: 0 auto;
+            background-color: black;
+            -webkit-box-shadow:0px 10px 39px 10px rgba(62,66,66,0.22);
+            -moz-box-shadow: 0px 10px 39px 10px rgba(62,66,66,0.22);
+            box-shadow: 0px 10px 39px 10px rgba(62,66,66,0.22);
+            display: grid;
+            grid-template: 1fr 1fr / 1fr 1fr 1fr;
+        }
+
+        .box {
+            color: white;
+            font-size: 1.5rem;
+            text-align: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .image_sec
+        {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 25%;
+        }
+
+    </style>
+
+</head>
+<body>
+
+
+<section class="image_sec">
+    <img src="theory.PNG" alt="">
+</section>
+
+
+<section>
+    <h1 class="h1_text_center">
+        6-Grid-Template-Shorthand-Property
+    </h1>
+    <h1 class="h1_text_center">
+        display: grid;
+    </h1>
+    <h1 class="h1_text_center">
+        grid-template-rows: 1fr 1fr / 1fr 1fr 1fr;
+    </h1>
+
+    <div class="container_example_1">
+        <div class="box" style="background-color: #E53935">FIRST</div>
+        <div class="box" style="background-color: #D81B60">SECOND</div>
+        <div class="box" style="background-color: #8E24AA">THIRD</div>
+        <div class="box" style="background-color: #5E35B1">FOURTH</div>
+        <div class="box" style="background-color: #3949AB">FIFTH</div>
+        <div class="box" style="background-color: #1E88E5">SIXTH</div>
+    </div>
+</section>    
+
+
+
+</body>
+</html>
+
+
